@@ -7,7 +7,7 @@ import json
 import argparse
 
 app = Flask(__name__)
-camera = cv2.VideoCapture(2)  # веб камера
+camera = cv2.VideoCapture(1)  # веб камера
 33
 controlX, controlY = 0, 0  # глобальные переменные положения джойстика с web-страницы
 
